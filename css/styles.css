@@ -604,6 +604,8 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 15px; /* Redondea los bordes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
 }
 
 .img-thumbnail {
@@ -2849,19 +2851,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #64a19d;
+  --bs-btn-bg: #bd750a;
   --bs-btn-border-color: #64a19d;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #558985;
-  --bs-btn-hover-border-color: #50817e;
+  --bs-btn-hover-bg: #bd750aa9;
+  --bs-btn-hover-border-color: #bd750a;
   --bs-btn-focus-shadow-rgb: 123, 175, 172;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #50817e;
-  --bs-btn-active-border-color: #4b7976;
+  --bs-btn-active-bg: #bd750a;
+  --bs-btn-active-border-color: #bd750a;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #64a19d;
-  --bs-btn-disabled-border-color: #64a19d;
+  --bs-btn-disabled-bg: #bd750a;
+  --bs-btn-disabled-border-color: #bd750a;
 }
 
 .btn-secondary {
